@@ -2,99 +2,33 @@
     box-sizing: border-box;
 }
 
-.first {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-}
-
-.first:after {
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
 
-.second {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-}
-
-.second:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.third {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-}
-
-.third:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.fourth {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-}
-
-.fourth:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.fifth {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-}
-
-.fifth:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.first__left {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    width: 100px;
-    height: 100px;
-    float: left;
-}
-
-.first__right {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    width: 100px;
-    height: 100px;
-    float: right;
-}
-
-.second__left {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    height: 100px;
-    width: 100px;
-    float: left;
-}
-
-.second__container {
+.wrapper {
     float: right;
     border: none;
 }
 
-.second__container-right {
+.blocks {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.left-element {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    float: left; 
+}
+
+.right-element {
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
@@ -103,60 +37,26 @@
     float: left;
 }
 
-.third__left {
+.first-right {
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
     height: 100px;
     width: 100px;
-    float: left;
-}
-
-.third__container {
     float: right;
-    border: none;
 }
 
-.third__container-right {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    height: 100px;
-    width: 100px;
-    float: left;
-}
-
-.fourth__container {
-    border: none;
+.container-center {
     margin: 0 auto;
     width: 400px;
 }
 
-.fourth__container-left {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-
-.fourth__container-right {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    height: 90px;
-    width: 150px;
-    float: left;
-}
-
-.fifth__container {
-    border: none;
+.container-right {
     margin-left: auto;
     width: 400px;
 }
 
-.fifth__container-left {
+.group-left {
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
@@ -165,7 +65,7 @@
     float: left;
 }
 
-.fifth__container-right {
+.group-right {
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
