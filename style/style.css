@@ -92,8 +92,6 @@
 .second__container {
     float: right;
     border: none;
-    padding: 0;
-    margin: 0;
 }
 
 .second__container-right {
@@ -117,8 +115,6 @@
 .third__container {
     float: right;
     border: none;
-    padding: 0;
-    margin: 0;
 }
 
 .third__container-right {
@@ -132,7 +128,6 @@
 
 .fourth__container {
     border: none;
-    padding: 0;
     margin: 0 auto;
     width: 400px;
 }
@@ -157,7 +152,6 @@
 
 .fifth__container {
     border: none;
-    padding: 0;
     margin-left: auto;
     width: 400px;
 }
@@ -169,7 +163,6 @@
     width: 200px;
     height: 200px;
     float: left;
-
 }
 
 .fifth__container-right {
